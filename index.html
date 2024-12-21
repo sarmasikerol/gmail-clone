@@ -133,5 +133,23 @@
         <i class="bi bi-plus"></i>
       </aside>
     </section>
+
+     <!-- * Modal -->
+     <div class="modal-wrapper">
+      <div class="modal-inner">
+        <i class="bi bi-x-lg" id="close-btn"></i>
+        <form id="create-mail-form">
+          <label for="who">Kime</label>
+          <input type="text" id="who" />
+          <label for="subject">Konu</label>
+          <input type="text" id="subject" />
+          <label>İçerik</label>
+          <textarea></textarea>
+          <button type="submit" id="send-mail-btn">Gönder</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="main.js" type="module"></script>
   </body>
 </html>
